@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Title of the page-->
+    <title> Contact Us </title>
+    <!--Linking External CSS to this page-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--setting up browser icon -->
+    <link rel="icon" href="sport.ico">
+
+    <!--Javascript for thr forms, this replaces the text fields with white space and pops up with an alert-->
+
+    <script>
+      
+    function showmessage()
+        {
+        document.getElementById('textfield1').value = "";
+        document.getElementById('textfield2').value = "";
+        document.getElementById('textfield3').value = "";
+        alert("Thank you for submitting your query!")
+        }
+    </script>
+
+     <!--Internal Css to layout text -->
+
+    <style>
+        #contact_text{
+            color: #fff;
+            position: absolute;
+            top: 32%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+        }
+        
+        #frm1{
+            color: #fff;
+            position: absolute;
+            top: 54%;
+            left: 75.5%;
+            transform: translate(-50%, -50%);
+            font-size: 29px;
+        }
+
+        #bulletpoints{
+            color: #fff;
+            position: absolute;
+            top: 65%;
+            left: 42%;
+            transform: translate(-50%, -50%);
+            font-size: 29px;
+        }
+
+        #form_text{
+            color: #fff;
+            position: absolute;
+            top: 33%;
+            left: 75%;
+            transform: translate(-50%, -50%);
+            font-size: 25px;
+        }
+
+        #form{
+            color: #fff;
+            position: absolute;
+            top: 75%;
+            left: 78.8%;
+            transform: translate(-50%, -50%);
+            font-size: 29px;
+        }
+
+        #submit{
+            position: absolute;
+            top: 90%;
+            left: 75%;
+            transform: translate(-50%,-50%);
+         
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="sportlogo">
+            <img src=sportlogo.png>
+        </div>
+
+        <div class="main">
+            <ul>
+                <li class="active"><a href="index.html"> Home </a></li>
+                <li><a href="shoes.html"> Shoes </a></li>
+                <li><a href="clothes.html"> Clothes </a></li>
+                <li><a href="equipment.html"> Equipment </a></li>
+                <li class="active"><a href="contact us.html"> Contact Us </a></li>
+            </ul>
+        </div>
+
+        <div class="navcolour">
+            
+        </div>
+
+        <div class="twitter">
+            <a href="https://www.twitter.com"><img src="twitter.png">
+        </div>
+
+        <div class="instagram">
+            <a href="https://www.instagram.com"><img src="instagram.png">
+        </div>
+
+        <!--Inline CSS-->
+        <div id="contact">
+            <p style="color: #fff;position: absolute;top: 20%;left: 50%;transform: translate(-50%, -50%);font-size: 50px;"> <b> Contact Us: </b> </p>
+        </div>
+
+        <div id="contact_text">
+            <p> If you have any questions please don't <br> hesitate to contact us.</p>
+        </div>
+
+        <div id="bulletpoints">
+            <ul>
+                <li>• Email: sportgoods4u@hotmail.com</li>
+                <br>
+                <li>• Phone Number: 07849238491</li>
+                <br>
+                <li>• Twitter: SportGoods4U</li>
+                <br>
+                <li>• Instagram: SportGoods4U</li>
+            </ul>
+        </div>
+
+        <div id="form_text">
+            <p> If you have further questions please fill out a form and we will get back to you ASAP. </p>
+        </div>
+
+        <div>
+            <form id="frm1">
+                <label for="textfield"> First name:</font></label>
+                <textarea cols ="35" rows ="2" ID = "textfield1"></textarea>
+                <br>
+                <label for="textfield"><font color = "white" size="6px"> Last name:</font></label>
+                <textarea cols ="35" rows ="2" ID = "textfield2"></textarea>
+            </form>    
+        </div>
+
+        <div id="form">
+            <label for="textfield" style="height:100px;width:100px;"> Form:</label>
+            <textarea cols ="60" rows ="6" ID = "textfield3"></textarea>
+        </div>
+
+        <div id="submit">
+            <input type="button" onclick="showmessage()" style="height: 25px; width: 80px" value="Submit">
+        </div>
+
+
+    </header>
+
+
+</body>
+<div class="footer">
+        <footer>
+            Copyright &copy; 2021 Nichita Maftei
+        </footer>
+    </div>
+
+</html>

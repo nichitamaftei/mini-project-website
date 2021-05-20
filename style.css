@@ -1,0 +1,90 @@
+/* This is External CSS */             
+
+*{
+    margin:0;
+    padding: 0; 
+    font-family: Alegreya;
+}
+
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 70px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-25%, -90%);
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 30px;
+    border:1px solid transparent;
+    font-size: 35px;
+    color: #b9c4cd;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(sports.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.sportlogo img{
+    float: left;
+    width: 120px;
+    height: auto;
+    position:relative; right:-50px;
+    
+}
+
+.twitter img{
+    float: right;
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 11%;
+    left: 86%;
+    transform: translate(-25%, -90%);
+}
+
+.instagram img{
+    float: right;
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 94%;
+    transform: translate(-25%, -90%);
+}
+
+.navcolour{
+    border: 50px solid #e9f3fd80;
+}
+
+.footer{
+    clear: both;
+    padding: 10px;
+    background-color: #ffffff60;
+    color: white;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
